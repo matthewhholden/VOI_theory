@@ -13,3 +13,5 @@ The files "make_asymp_plots_2x2_uniform.R" and "make_gamma_plots_2x2.R" take in 
 The files exp_lambda_sim.R, unif_b_sim.R, and norm_std_sim.R, generate the suplimentary sensitivity figures to the paramerters of these distribution, 
 which shows that the distribution of VOI values does not depend on these parameters
 
+R is particularly not very good at 3D plotting so in figure 1 of the manuscript we used MATLAB to plot the analytic EVPI solutions, the code of which is in Plot_VOIbound.m. However since it is just plotting an analytic function, this is trivial to replicate in any language or even a web aplet like Desmos.
+
