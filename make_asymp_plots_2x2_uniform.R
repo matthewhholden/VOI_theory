@@ -39,7 +39,7 @@ rm(EVPI, n.states, n.actions, ms)
 
 mtext(side = 1, "Number of states (log scale)", outer = TRUE, padj = -1.5, adj = .5)
 mtext(side = 1, "Number of actions (log scale)", outer = TRUE, padj = -30.5, adj = .5)
-mtext(side = 2, "EVPI (Expected Value of Perfect Information)", outer = TRUE, padj = -0.5, adj = .5)
+mtext(side = 2, " Expected Value of Perfect Information (EVPI) / max utility gap", outer = TRUE, padj = -0.5, adj = .5)
 
 print("g")
 dev.off()

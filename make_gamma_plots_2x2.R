@@ -43,7 +43,7 @@ text(x=x, y=y, paste("d)  ", n.actions, " actions", sep=""), cex = cl, adj=0)
 
 mtext(side = 1, "Number of states (log scale)", outer = TRUE, padj = -1.4, adj = .5, cex = cl)
 mtext(side = 1, "Number of actions (log scale)", outer = TRUE, padj = -22.7, adj = .5, cex = cl)
-mtext(side = 2, "    Expected value of perfect information (EVPI) / Max benefit gap", 
+mtext(side = 2, "    Expected value of perfect information (EVPI) / max utility gap", 
       outer = TRUE, padj = -1.3, adj = .5, cex = cl)
 
 dev.off()
